@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/python-3.11-blue" alt="Supported Python version">
+<img src="https://img.shields.io/badge/python-3.11-blue" alt="Supported Python version"> <img src="https://img.shields.io/static/v1?logo=uv&label=uv&message=0.5.10&color=blue">
 
 
 # think-bayes-notes
@@ -10,15 +10,14 @@ Access to notes online: [link](https://pdgarden.github.io/think-bayes-notes/)
 
 ## Installation
 
-- Create virtual env: ```python3.11 -m venv venv```
-- Activate virtual env: ```source venv/bin/activate```
-- Install dependencies: ```pip install -r requirements.txt```
+- Install dependencies: `uv sync` (Tested with uv `v0.9.9`)
 - Install quarto: see [documentation](https://quarto.org/docs/get-started/)
+
 
 ## Run
 
 To generate the file `think_bayes_notes.html`:
 
-- Run notebook from  GUI or CLI: ```jupyter nbconvert --execute --to notebook --inplace think_bayes_notes.ipynb```
-- Create html file using Quarto: ```quarto render think_bayes_notes.ipynb --to html```
-- (Optional) To clear the notebook's output: ```jupyter nbconvert --clear-output --inplace think_bayes_notes.ipynb```
+- Run notebook from  GUI or CLI: ```uv run jupyter nbconvert --execute --to notebook --inplace think_bayes_notes.ipynb```
+- Create html file using Quarto: ```uv run quarto render think_bayes_notes.ipynb --to html```
+- (Optional) To clear the notebook's output: ```uv run jupyter nbconvert --clear-output --inplace think_bayes_notes.ipynb```
