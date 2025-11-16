@@ -11,7 +11,7 @@ Access to notes online: [link](https://pdgarden.github.io/think-bayes-notes/)
 ## Installation
 
 - Install dependencies: `uv sync` (Tested with uv `v0.9.9`)
-- Install quarto: see [documentation](https://quarto.org/docs/get-started/)
+- Install quarto: see [documentation](https://quarto.org/docs/get-started/) (Tested with `v1.8.26`)
 
 
 ## Run
@@ -19,4 +19,3 @@ Access to notes online: [link](https://pdgarden.github.io/think-bayes-notes/)
 To generate the file `docs/think_bayes_notes.html`:
 
 - Create html file using Quarto: ```uv run quarto render --execute```
-- (Optional) To clear the notebook's output: ```uv run jupyter nbconvert --clear-output --inplace think_bayes_notes.ipynb```
