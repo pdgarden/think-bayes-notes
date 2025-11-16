@@ -4,8 +4,8 @@
 # think-bayes-notes
 
 Notes taken while reading [Think Bayes](https://allendowney.github.io/ThinkBayes2/) by Allen B. Downey.  
-Jupyter notebook and quarto are used to render the notes in the html file `think_bayes_notes.html`.  
-Access to notes online: [link](https://pdgarden.github.io/think-bayes-notes/)
+- Jupyter notebook and quarto are used to render the report from file `think_bayes_notes.ipynb`.  
+- Access to notes online: [link](https://pdgarden.github.io/think-bayes-notes/)
 
 
 ## Installation
