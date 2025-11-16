@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - think_bayes_notes.ipynb
+
+website:
+
+  navbar:
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/pdgarden/think-bayes-notes
+
+  sidebar:
+    style: "floating"
+    search: false
+    contents:
+      - text: "Notes"
+        href: think_bayes_notes.ipynb

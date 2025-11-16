@@ -2,3 +2,6 @@ venv*
 .ipynb_checkpoints/
 think_bayes_notes_files/
 .vscode
+
+/.quarto/
+docs/*
