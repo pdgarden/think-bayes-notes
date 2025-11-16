@@ -16,8 +16,7 @@ Access to notes online: [link](https://pdgarden.github.io/think-bayes-notes/)
 
 ## Run
 
-To generate the file `think_bayes_notes.html`:
+To generate the file `docs/think_bayes_notes.html`:
 
-- Run notebook from  GUI or CLI: ```uv run jupyter nbconvert --execute --to notebook --inplace think_bayes_notes.ipynb```
-- Create html file using Quarto: ```uv run quarto render think_bayes_notes.ipynb --to html```
+- Create html file using Quarto: ```uv run quarto render --execute```
 - (Optional) To clear the notebook's output: ```uv run jupyter nbconvert --clear-output --inplace think_bayes_notes.ipynb```
