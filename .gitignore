@@ -5,3 +5,4 @@ think_bayes_notes_files/
 
 /.quarto/
 docs/*
+!docs/index.html
